@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    font-size: 20px;
+    font-weight: 900;
+    flex-direction: column;
+    width: 300px;
+    padding-left: 40vw;
+}
+table td{
+    border: 1px solid rgb(92, 87, 87);
+    width: 100px;
+    height: 100px;
+    background-color: rgb(130, 130, 185);
+    border-radius: 10px;
+    transition: 0.9s ease;
+}
+table td:hover{
+    transform: scale(1.05,1.05);
+}
+button{
+    width: 20vw;
+    background-color: rgb(148, 142, 142);
+    border: 2px solid gray;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    height: 5vh;
+}

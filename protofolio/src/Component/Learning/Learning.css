@@ -1,0 +1,33 @@
+.second{
+    background-color: #FFFBE9;
+    padding: 20px 200px;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+}
+.second p{
+    font-size: 2.5em;
+    color: #632626;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.second .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.second .cards div{
+    background-color: #9D5353;
+    width: 800px;
+    height: 200px;
+    margin: 40px 20px;
+    padding: 70px 20px;
+    font-size: 1.5em;
+    color: #DACC96;
+    font-weight: 500;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 0.7s ease;
+}
+.second .cards div:hover{
+    transform: scale(1.1);
+}

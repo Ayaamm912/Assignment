@@ -1,0 +1,32 @@
+.first{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 300px;
+    background-color: #DACC96;
+    border-bottom: 10px solid #632626;
+}
+.first .text p{
+    color: #632626;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.first .text{
+    margin-top: 50px;
+}
+.first .text h1{
+    color: #9D5353;
+    font-size: 4em;
+    font-weight: 700;
+}
+.first .img{
+    border: #632626 5px solid;
+    border-radius: 20px;
+    background-color: #9D5353;
+}
+.first .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
